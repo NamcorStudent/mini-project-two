@@ -1,3 +1,14 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    color: white;
+    opacity: .8;
+}
+
+.main {
+    height: 100%;
+}
+
 .header {
     position: fixed;
     left: 0;
@@ -5,4 +16,38 @@
     top: 0;
     background-color: #ad4322;
     padding: 20px 30px;
+}
+
+.section {
+    height: 100%;
+    background-color: #4a4d1c;
+}
+
+.vcenter {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.section-paragraph {
+    font-size: 1em;
+    margin: 20px 25px;
+    text-align: justify;
+}
+
+.footer {
+    background-color: #fa4a4f;
+    padding: 10px 30px;
+}
+
+@media (min-width: 768px){
+    .column {
+        float: left;
+    }
+    .column-60 {
+        width: 60%;
+    }
+    .column-40 {
+        width: 40%;
+    }
 }
