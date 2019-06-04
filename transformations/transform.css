@@ -1,0 +1,25 @@
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: #000;
+   /* animation-name: rotate;
+    animation-direction: normal;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;*/
+    transition-duration: 1s;
+}
+
+/*@keyframes rotate {
+    from{
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}*/
+
+.box:hover{
+    transform: translateX(1000%);
+}
